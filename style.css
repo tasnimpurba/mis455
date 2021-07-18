@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.intro {
+  margin-left: 200px;
+}
+.img-1 {
+  position: absolute;
+  top: 10%;
+  right: 20%;
+}
+.intro h1 {
+  font-size: 40px;
+}
+.sec-1 {
+  margin: 100px;
+}
+
+.img-2 {
+  position: absolute;
+  top: 80%;
+  left: 20%;
+}
+.about {
+  position: absolute;
+  top: 80%;
+  left: 30%;
+  margin-right: 20px;
+}
+.sec-3 {
+  position: absolute;
+  top: 150%;
+  margin: 50px 100px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 29% 29% 29%;
+  gap: 40px;
+}
+.box {
+  border: 2px solid rgb(221, 198, 198);
+  padding: 20px;
+}
+.copy {
+  margin-top: 80%;
+  text-align: center;
+}
